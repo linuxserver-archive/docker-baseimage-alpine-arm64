@@ -16,6 +16,7 @@ RUN \
 	tar && \
  apk add --no-cache \
 	bash \
+	ca-certificates \
 	coreutils \
 	s6 \
 	s6-portable-utils \
