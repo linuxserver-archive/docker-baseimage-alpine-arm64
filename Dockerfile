@@ -2,7 +2,7 @@ FROM scratch
 ADD rootfs.tar.gz /
 
 # set version for s6 overlay
-ARG OVERLAY_VERSION="v1.18.1.5"
+ARG OVERLAY_VERSION="v1.19.1.1"
 
 # environment variables
 ENV PS1="$(whoami)@$(hostname):$(pwd)$ " \
